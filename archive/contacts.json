@@ -7,13 +7,13 @@
   },
   "contacts": [
     {
-      "id": "1",
+      "id": 1,
       "fullName": "John Doe",
       "avatar": "https://i.pravatar.cc/150?img=1",
       "email": "johndoe1@mail.com",
       "phone": "+6281234000001",
       "labels": ["Friend"],
-      "birthday": "1990-01-15",
+      "birthday": "1990-01-15T00:00:00.000Z",
       "job": "Engineer",
       "location": "New York, USA",
       "specialist": "AI",
