@@ -1,0 +1,78 @@
+{
+  "labelColors": {
+    "Family": "#FFCDD2",
+    "Friend": "#C8E6C9",
+    "Customer": "#BBDEFB",
+    "Work": "#D1C4E9"
+  },
+  "contacts": [
+    {
+      "id": "1",
+      "fullName": "John Doe",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "email": "johndoe1@mail.com",
+      "phone": "+6281234000001",
+      "labels": ["Friend"],
+      "birthday": "1990-01-15",
+      "job": "Engineer",
+      "location": "New York, USA",
+      "specialist": "AI",
+      "linkedin": "#",
+      "instagram": "#",
+      "country": "us",
+      "countryName": "United States",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": "2",
+      "fullName": "Jane Smith",
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "email": "janesmith2@mail.com",
+      "phone": "+6281234000002",
+      "labels": ["Work"],
+      "birthday": "1985-02-20",
+      "job": "Manager",
+      "location": "London, UK",
+      "specialist": "Marketing",
+      "linkedin": "#",
+      "instagram": "#",
+      "country": "gb",
+      "countryName": "United Kingdom",
+      "timezone": "Europe/London"
+    },
+    {
+      "id": "3",
+      "fullName": "Michael Johnson",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "email": "mjohnson3@mail.com",
+      "phone": "+6281234000003",
+      "labels": ["Customer"],
+      "birthday": "1978-03-10",
+      "job": "Consultant",
+      "location": "Berlin, Germany",
+      "specialist": "Finance",
+      "linkedin": "#",
+      "instagram": "#",
+      "country": "de",
+      "countryName": "Germany",
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "id": "4",
+      "fullName": "Muh. Fullan",
+      "avatar": "https://i.pravatar.cc/150?img=4",
+      "email": "fullan4@mail.com",
+      "phone": "+6281234000100",
+      "labels": ["Family"],
+      "birthday": "1999-12-31",
+      "job": "Student",
+      "location": "Jakarta, Indonesia",
+      "specialist": "WebDev",
+      "linkedin": "#",
+      "instagram": "#",
+      "country": "id",
+      "countryName": "Indonesia",
+      "timezone": "Asia/Jakarta"
+    }
+  ]
+}

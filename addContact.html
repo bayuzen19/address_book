@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="add-contact">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Add Contact - Charm</title>
+  <!-- Bootstrap CSS & Icons -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    rel="stylesheet"
+  />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="card card-add">
+      <div class="card-header bg-white border-0">
+        <h2 class="mb-0"><i class="bi bi-person-plus-fill me-2 text-primary"></i>Add New Contact</h2>
+      </div>
+      <div class="card-body">
+        <form id="contact-form">
+          <div class="row gx-3">
+            <!-- Full Name -->
+            <div class="col-12 col-md-6 mb-3">
+              <label for="fname" class="form-label">Full Name</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                <input id="fname" type="text" class="form-control" placeholder="John Doe" required/>
+              </div>
+            </div>
+            <!-- Avatar URL -->
+            <div class="col-12 col-md-6 mb-3">
+              <label for="favatar" class="form-label">Avatar URL</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-image-fill"></i></span>
+                <input id="favatar" type="url" class="form-control" placeholder="https://avatar.url"/>
+              </div>
+            </div>
+            <!-- Email -->
+            <div class="col-12 col-md-6 mb-3">
+              <label for="femail" class="form-label">Email</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                <input id="femail" type="email" class="form-control" placeholder="you@mail.com" required/>
+              </div>
+            </div>
+            <!-- Phone -->
+            <div class="col-12 col-md-6 mb-3">
+              <label for="fphone" class="form-label">Phone</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-telephone-fill"></i></span>
+                <input id="fphone" type="tel" class="form-control" placeholder="+62..." required/>
+              </div>
+            </div>
+            <!-- Labels (full width) -->
+            <div class="col-12 mb-3">
+              <fieldset class="border rounded-3 p-3">
+                <legend class="float-none w-auto px-2 mb-0">Labels</legend>
+                <div class="row">
+                  <div class="col-6 col-md-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="Family" id="lblFamily"/>
+                      <label class="form-check-label" for="lblFamily">Family</label>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="Friend" id="lblFriend"/>
+                      <label class="form-check-label" for="lblFriend">Friend</label>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="Customer" id="lblCustomer"/>
+                      <label class="form-check-label" for="lblCustomer">Customer</label>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="Work" id="lblWork"/>
+                      <label class="form-check-label" for="lblWork">Work</label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+            <!-- Birthday -->
+            <div class="col-12 col-md-6 mb-3">
+              <label for="fbday" class="form-label">Birthday</label>
+              <input id="fbday" type="date" class="form-control"/>
+            </div>
+            <!-- Country Code -->
+            <div class="col-12 col-md-6 mb-3">
+              <label for="fcountry" class="form-label">Country Code</label>
+              <input id="fcountry" type="text" class="form-control" placeholder="e.g. id"/>
+            </div>
+            <!-- Timezone -->
+            <div class="col-12 mb-3">
+              <label for="ftimezone" class="form-label">Timezone</label>
+              <input id="ftimezone" type="text" class="form-control" placeholder="e.g. Asia/Jakarta"/>
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="d-flex justify-content-end mt-4">
+            <button type="button" class="btn btn-outline-secondary me-3"
+                    onclick="location.href='charm.html'">
+              Cancel
+            </button>
+            <button type="submit" class="btn btn-primary">
+              Save Contact
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <script src="addcontact.js"></script>
+</body>
+</html>
